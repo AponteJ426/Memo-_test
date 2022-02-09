@@ -2,6 +2,7 @@
 .memo-block {
     cursor: pointer;
     aspect-ratio: 1 / 1;
+    margin: 5px;
 }
 
 .memo-block-front, .memo-block-back {
@@ -35,6 +36,9 @@
     justify-content: center;
     align-items: center;
     font-size: 55px;
+    border-style: groove;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
 
 }
 
