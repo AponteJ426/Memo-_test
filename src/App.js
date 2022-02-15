@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from 'react';
 import Board from './components/Board/Board';
-const emojiList = [...'🤠🪐🌎⭐🔥🌑🌤⚡'];
+const emojiList = [...'🏈🎾🏐🏓🏀😄🎲🪗'];
 
 const App = () => {
   const [shuffledMemoBlocks, setShuffledMemoBlocks] = useState([]);
