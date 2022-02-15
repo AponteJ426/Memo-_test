@@ -43,8 +43,11 @@ const App = () => {
   }
 
   return (
-    <Board memoBlocks={shuffledMemoBlocks} animating={animating} handleMemoClick={handleMemoClick} />
-  );
-}
+    <Board 
+        memoBlocks={shuffledMemoBlocks}
+        animating={animating} 
+        handleMemoClick={handleMemoClick}
+     />)
+  }
 
 export default App;
